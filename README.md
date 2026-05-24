@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/cardionet-banner.png" width="100%"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Keras-Deep%20Learning-darkred?style=for-the-badge"/>
@@ -85,6 +89,16 @@ CardioNet-AI demonstrates how modern deep learning architectures can be adapted 
 
 ---
 
+## Research Contributions
+
+- Hybrid Transformer-CNN ensemble architecture for structured healthcare data
+- Attention-based clinical feature interaction learning
+- Gated MLP fusion strategy for cardiovascular representation refinement
+- Stratified ensemble evaluation workflow for robust healthcare prediction
+- Reproducible deep learning experimentation pipeline
+
+---
+
 ## Core Architectures
 
 CardioNet-AI integrates multiple deep learning architectures into a unified cardiovascular prediction framework.
@@ -102,6 +116,9 @@ CardioNet-AI integrates multiple deep learning architectures into a unified card
 
 ```text
 CardioNet-AI
+│
+├── assets/                                      # Repository assets and banner
+│   └── cardionet-banner.png
 │
 ├── models/                                      # Trained model checkpoints
 │   ├── best_cnn_transformer.keras
@@ -407,7 +424,7 @@ All required dependencies are provided in `requirements.txt`.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
