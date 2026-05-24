@@ -113,9 +113,6 @@ CardioNet-AI integrates multiple deep learning architectures into a unified card
 ```text
 CardioNet-AI
 │
-├── assets/                                      # Repository assets and banner
-│   └── cardionet-banner.png
-│
 ├── models/                                      # Trained model checkpoints
 │   ├── best_cnn_transformer.keras
 │   ├── best_ft_transformer.keras
@@ -420,7 +417,7 @@ All required dependencies are provided in `requirements.txt`.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
