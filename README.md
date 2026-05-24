@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="assets/cardionet-banner.png" width="100%"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Keras-Deep%20Learning-darkred?style=for-the-badge"/>
