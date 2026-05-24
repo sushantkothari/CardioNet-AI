@@ -14,6 +14,10 @@
 Production-Grade Hybrid Transformer Ensemble Framework for Cardiovascular Disease Prediction
 </p>
 
+<p align="center">
+Transformer-Inspired Attention Learning • CNN-Enhanced Feature Extraction • Gated MLP Fusion • Deep Ensemble Optimization
+</p>
+
 ---
 
 ## Overview
@@ -25,9 +29,9 @@ The project integrates multiple advanced neural modeling paradigms — including
 Unlike traditional machine learning systems that rely on shallow statistical classifiers, CardioNet-AI leverages deep representation learning and ensemble optimization strategies to improve:
 
 - Predictive robustness
-- Feature interaction learning
+- Clinical feature interaction learning
 - Generalization capability
-- Clinical pattern extraction
+- Cardiovascular pattern extraction
 - Model stability
 - Healthcare AI scalability
 
@@ -42,7 +46,7 @@ The repository demonstrates a complete end-to-end applied AI workflow covering:
 - Performance diagnostics
 - Reproducible experimentation
 
-The implementation reflects engineering principles commonly used in modern healthcare AI systems, applied deep learning pipelines, and production-focused machine learning research environments.
+The implementation reflects engineering principles commonly used in modern healthcare AI systems, applied deep learning pipelines, and production-focused machine learning environments.
 
 ---
 
@@ -81,17 +85,30 @@ CardioNet-AI demonstrates how modern deep learning architectures can be adapted 
 
 ---
 
+## Core Architectures
+
+CardioNet-AI integrates multiple deep learning architectures into a unified cardiovascular prediction framework.
+
+| Architecture | Purpose |
+|---|---|
+| Transformer-Inspired Attention Network | Clinical feature interaction learning |
+| CNN-Enhanced Representation Block | Nonlinear local feature extraction |
+| Gated MLP Network | Adaptive feature fusion and refinement |
+| Ensemble Fusion Pipeline | Robust prediction aggregation |
+
+---
+
 ## Repository Structure
 
 ```text
-CardioNet-AI/
+CardioNet-AI
 │
-├── models/
+├── models/                                      # Trained model checkpoints
 │   ├── best_cnn_transformer.keras
 │   ├── best_ft_transformer.keras
 │   └── best_gated_mlp.keras
 │
-├── results/
+├── results/                                     # Exported evaluation artifacts
 │   ├── heart_fold_metrics.csv
 │   └── heart_test_predictions.csv
 │
@@ -113,7 +130,7 @@ The repository includes multiple trained deep learning architectures for evaluat
 | `best_ft_transformer.keras` | Fine-tuned Transformer-based prediction model |
 | `best_gated_mlp.keras` | Gated multilayer perceptron architecture |
 
-These checkpoints allow direct inference and transfer learning workflows without requiring retraining from scratch.
+These checkpoints enable direct inference, evaluation, and transfer learning workflows without requiring retraining from scratch.
 
 ---
 
@@ -158,6 +175,30 @@ The project utilizes structured cardiovascular healthcare data containing demogr
 12. Prediction inference and diagnostics
 13. Model checkpoint persistence
 14. Final prediction export
+
+---
+
+## Inference Workflow
+
+The prediction pipeline follows the sequence below:
+
+```text
+Clinical Features
+        ↓
+Feature Scaling & Normalization
+        ↓
+Deep Feature Embedding
+        ↓
+Transformer Attention Learning
+        ↓
+CNN Feature Extraction
+        ↓
+Gated MLP Feature Fusion
+        ↓
+Ensemble Prediction Aggregation
+        ↓
+Cardiovascular Risk Classification
+```
 
 ---
 
@@ -232,14 +273,38 @@ The models are evaluated using multiple healthcare-focused classification metric
 
 ---
 
-## Evaluation Outputs
+## Results Snapshot
 
-The repository includes exported evaluation artifacts for reproducibility and performance analysis.
+The ensemble architectures demonstrated strong predictive capability across cardiovascular disease classification tasks using stratified evaluation workflows.
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- Cross-Validation Metrics
+
+### Exported Evaluation Artifacts
 
 | File | Description |
 |---|---|
 | `heart_fold_metrics.csv` | Cross-validation fold evaluation metrics |
 | `heart_test_predictions.csv` | Final test-set prediction outputs |
+
+---
+
+## Reproducibility
+
+The project follows a reproducible experimentation workflow:
+
+- Fixed random seed initialization
+- Deterministic preprocessing pipeline
+- Persistent model checkpointing
+- Exported evaluation artifacts
+- Structured experiment logging
+- Modular training workflow
 
 ---
 
