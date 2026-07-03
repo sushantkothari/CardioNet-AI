@@ -165,6 +165,15 @@ The project utilizes structured cardiovascular healthcare data containing demogr
 | `0` | Absence of Heart Disease |
 | `1` | Presence of Heart Disease |
 
+### Dataset Provenance and Usage
+
+- **Source:** UCI Heart Disease dataset (**Cleveland subset**). The notebook expects a ZIP archive named `heart+disease.zip` containing the file `processed.cleveland.data` (the Cleveland dataset file).
+
+- **Download:** The original dataset can be obtained from the **UCI Machine Learning Repository**:
+  https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+- **Usage Note:** Place `heart+disease.zip` (containing `processed.cleveland.data`) in the notebook runtime directory before executing the pipeline. Alternatively, update the `zip_path` variable in `Hybrid_Transformer_Ensemble_for_Heart_Disease_Prediction.ipynb` to point to the dataset location on your system.
+
 ---
 
 ## System Architecture
