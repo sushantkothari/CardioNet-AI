@@ -316,7 +316,7 @@ The ensemble architectures demonstrated strong predictive capability across card
 
 ## Reproducibility
 
-The project follows a reproducible experimentation workflow:
+The project adopts a systematic and reproducible experimental approach:
 
 - Fixed random seed initialization
 - Deterministic preprocessing pipeline
